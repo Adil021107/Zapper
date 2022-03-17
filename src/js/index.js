@@ -1,0 +1,1 @@
+const go='Let-s go!'
