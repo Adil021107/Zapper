@@ -5,24 +5,103 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Dashboard</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+			rel="stylesheet"
+		/>
 		<link rel="stylesheet" href="./src/css/global.css" />
 	</head>
 	<body>
 		<div class="wrapper">
 			<header class="header container">Ержан</header>
 			<main class="main container">
-				<aside class="leftPanel">Адилет</aside>
+				<aside class="leftPanel">
+					<!-- Адилет -->
+					<button class="drop-btn">
+						<p>
+							<img
+								class="icon"
+								src="./src/img/LeftPanel/stickynote.svg"
+								alt=""
+							/>Ethereum
+						</p>
+						<img class="drop" src="" alt="||" />
+					</button>
+
+					<button class="dashboard">
+						<img
+							class="icon"
+							src="./src/img/LeftPanel/category.svg"
+							alt=""
+						/>Dashboard
+					</button>
+					<div class="nav">
+						<a class="new" href="">
+							<img
+								src="./src/img/LeftPanel/stickynote.svg"
+								alt=""
+							/>
+							New
+						</a>
+						<a class="logout" href="">
+							<img src="./src/img/LeftPanel/logout.svg" alt="" />
+							Logout
+						</a>
+					</div>
+				</aside>
 				<div class="content">
-					<div class="content-overview">Overview Адиль</div>
+					<div class="content-overview">
+						<!-- Адиль -->
+						<h2 class="overView">Overview</h2>
+						<button type="button" class="btn">
+							<img
+								src="./src/img/Overview/customize.svg"
+								alt=""
+							/>
+							Customize
+						</button>
+					</div>
 					<div class="content-top">
 						<div class="content-top-start">Актан</div>
 						<div class="content-top-center">Руслан</div>
-						<div class="content-top-end">Алихан</div>
+						<div class="content-top-end">
+							<!-- Алихан -->
+							<p class="coin__name">Expenses</p>
+							<p class="coin__price">$68.67</p>
+							<div class="chart-3">
+								<p>
+									<img
+										src="./src/img/Overview/down.svg"
+										alt=""
+									/><span>4.36%</span>
+								</p>
+								<div>
+									<img
+										src="./src/img/Overview/chart-3.png"
+										alt=""
+									/>
+								</div>
+							</div>
+						</div>
 					</div>
 					<div class="content-bottom">
 						<div class="content-bottom-Left">
 							<div class="content-bottom-Left-portofolio">
-								Данияр
+								<!-- Данияр -->
+								<p>
+									<img
+										src="./src/img/Portofolio/calendar.svg"
+										alt=""
+									/>Portofolio Performance
+								</p>
+								<div class="graph">
+									<img
+										src="./src/img/Portofolio/Chart.png"
+										alt=""
+									/>
+								</div>
 							</div>
 							<div class="content-bottom-Left-transactions">
 								Дияс
